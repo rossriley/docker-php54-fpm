@@ -2,6 +2,7 @@ FROM        ubuntu:raring
 MAINTAINER  Ross Riley "riley.ross@gmail.com"
 
 
+RUN sed -i -e 's/archive.ubuntu.com\|security.ubuntu.com/old-releases.ubuntu.com/g' /etc/apt/sources.list
 RUN apt-get update
 
 
