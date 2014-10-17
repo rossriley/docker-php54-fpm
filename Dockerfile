@@ -1,8 +1,7 @@
-FROM        ubuntu:13.04
+FROM        ubuntu:13.10
 MAINTAINER  Ross Riley "riley.ross@gmail.com"
 
 
-RUN echo "deb http://archive.ubuntu.com/ubuntu raring main universe" > /etc/apt/sources.list
 RUN apt-get update
 
 
